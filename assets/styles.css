@@ -1,0 +1,955 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+   
+  }
+  body{
+      
+      font-family: Avenir-Next,Roboto,sans-serif;
+  }
+  
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+    height: 30px;
+    margin-right:150px; 
+  }
+  .flag{
+  width:15px;
+  height:15px;
+  }
+  .navbar {
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding:0.5rem;
+    justify-content: space-between; 
+  }
+  .nav-links ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+  }
+  /* Navbar links */
+  .navbar a {
+    float:left;
+    text-align: center;
+    margin-left:40px;
+  color: #7f8c8d;
+    text-decoration: none;
+    font-size: 16px;
+  }
+   .apply-here{
+         width:110px;
+         height:22px;
+         background-color:#da601a;
+         border:none;
+         color:white;
+     }
+     @media (max-width: 768px){
+      nav{
+          padding: 10px;
+          display:flex;
+          flex-direction: column;
+      }
+      nav .nav-links{
+          gap: 0.1rem;
+      }
+      nav .apply{
+         width: 100%;
+       }
+  }
+  
+  
+  
+       /*section2 welcome page */
+  
+       .bg-container{
+         width:100%;
+         height:100%;
+         box-shadow:inset 0 0 0 100vw rgba(0,0,0,0.7);
+         background: url(" https://i.imgur.com/ksqOx5F.jpg");
+         background-size:cover;
+         padding-bottom:150px;
+         padding-top: 50px;
+         padding-left: 50px;
+       }
+       .bg-container h1{
+       font-size:90px;
+       color: white;
+       margin-left:80px;
+       margin-bottom:15px;
+      }
+      .bg-container h3{
+       font-size:33px;
+       color:white;
+       margin-left:80px;
+       margin-bottom: 17px;
+       margin-top:2px;
+      }
+      .b1{
+          color:white;
+          background-color:#4992ca;
+          margin-left:80px;
+          border:none;
+          height:45px;
+          width:220px;
+          }
+      .b2{
+          display:block;
+          margin-left:80px;
+          margin-top:18px;
+          border:none;
+          height:55px;
+          width:220px;
+          background-color: transparent;
+          border:2px solid white;
+          color:white;
+      }
+      .b3{
+        width:430px;
+        height:45px;
+        margin-left:80px;
+        margin-top:18px;
+       
+        background-color:white;
+        color:black;
+        border-radius:15px;
+        font-size:15px;
+        border:none;
+      }
+      @media (max-width:768px)
+  {
+      .section2 h1{
+          font-size:30px;
+      }
+     .section2 h3{
+         font-size:15px;
+     }
+     .section2 .bg-container{
+      padding-bottom:10px;
+      padding-top: 20px;
+      padding-left: 5px;
+             }
+     .section2 .b1{
+      height:25px;
+      width:120px;
+      font-size: 10px;
+      margin-bottom: 0px;
+     }
+     .section2 .b2{
+      height:35px;
+      width:120px;
+      font-size: 10px;
+      margin-top: 10px;
+     }
+     .section2 .b3{
+      width:220px;
+      height:30px;
+      font-size: 8px;
+      margin-top: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+     }
+      
+  }
+  
+  
+  
+      /*section3 blue container */
+  
+  
+      .row{
+        background-color:#4992ca;
+        width:100%;
+        font-family: Avenir-Next,Roboto,sans-serif;
+      }
+      .row h2{
+        font-size:45px;
+        color:white;
+        text-align: center;
+        padding-top:25px;
+      }
+      .row p{
+        color:white;
+        text-align: center;
+        padding-top:20px;
+        padding-left: 150px;
+        padding-right:150px;
+        padding-bottom:40px;
+      }
+      .flex-container{
+        display: flex;
+        flex-wrap:nowrap;
+       flex-direction: row;
+       padding-left:120px;
+       padding-right:120px;
+       color:white;
+      }
+      .flex-container h3{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 30px;
+      }
+      .flex-container div{
+        padding:5px;
+        text-align: center;
+        word-spacing: 0.1em;
+        line-height:150%;
+        padding-bottom: 80px;
+      }
+       .flex-container i{
+        padding-bottom:40px;
+       }
+       @media (max-width:768px)
+  {
+    .section3 .row
+    {
+        margin-left:5px;
+        margin-right: 5px;
+       
+    }
+    .row p{
+      padding-left:20px;
+      padding-right: 20px;
+      font-size: 15px;
+    }
+      .section3 h2{
+          font-size:15px;
+      }
+      .section3 .flex-container{
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        gap:0 rem;
+        font-size: 15px;
+      }
+  }
+  
+  
+  
+       /* section4 stats */
+  
+  
+       .stats{
+        font-family: Avenir-Next,Roboto,sans-serif;
+       }
+       .stats h2{
+         font-size:45px;
+         text-align: center;
+         padding-top:50px;
+       }
+       .stats-container{
+         display:flex;
+         flex-wrap: nowrap;
+         flex-direction: row;
+         padding-left: 150px;
+         padding-right: 150px;
+       }
+       .stats h4{
+         font-size: 30px;
+         font-weight: 300;
+        
+         padding-bottom: 40px;
+         padding-left: 80px;
+         padding-right: 50px;
+       }
+       .stats-container p{
+        padding: 5px;
+         text-align: center;
+         padding-bottom: 20px;
+        
+       }
+       .stats-container img{
+         width:430px;
+         height:230px;
+         justify-content: space-around;
+         padding-left: 80px;
+       }
+       @media (max-width:768px)
+  {
+      .section4 .stats{
+          padding:10px;
+      }
+      .section4 h2{
+          font-size:15px;
+          padding-top: 5px;
+          padding-bottom: 0px;
+          
+      }
+      .section4 h4{
+          font-size:12px;
+          padding-top: 20px;
+          padding-bottom: 10px;
+          font-size: 15px;
+          text-align: center;
+      }
+      .section4 .stats-container{
+        flex-direction: column;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+      }
+  }
+  
+  
+  
+      /*year revealed*/
+  
+       .year-revealed{
+        font-family: Avenir-Next,Roboto,sans-serif;
+       }
+       .year-revealed h2{
+         font-size: 40px;
+         text-align: center;
+         padding-top: 30px;
+         padding-bottom: 20px;
+       }
+       .col-1-img{
+         height:150px;
+         width:150px;
+        justify-content: center;
+        border-radius: 50%;
+       }
+       .col-items{
+         display: flex;
+         flex-direction: row;
+         padding-left:150px;
+         padding-right: 150px;
+         justify-content: space-around;
+         gap:2rem;
+         padding-bottom: 0px;
+       }
+       .col-items h6{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 100;
+        color: #424242;
+       }
+       .col-item2 p{
+         color:grey;
+         text-align: center;
+       }
+       .col-item3 p{
+         color:#8a8a8a;
+       }
+      .pokemon{
+        width:150px;
+        height:60px;
+      }
+      @media (max-width:768px)
+  {
+      
+      .section5 h2{
+          font-size:15px;
+          
+      }
+      .section5 .col-items h4{
+          font-size:12px;
+          padding:40px;
+          
+      }
+      .section5 .col-items h6{
+          font-size:15px;
+          
+      }
+      
+      .section5 .col-items {
+          grid-template-columns: auto;
+          flex-direction: column;
+      }
+  }
+  
+    
+  
+      
+  
+      /*Q and A*/
+  
+      .question-answer{
+        background-color: #4992ca ;
+        margin-top: 20px;
+        color: white;
+      }
+      .question-answer h2{
+        font-size: 45px;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+      }
+      .question-answer p{
+        padding-left: 150px;
+        padding-bottom: 20px;
+      }
+      .question-answer ol{
+        padding-left: 150px;
+        padding-right: 150px;
+      }
+      .question-answer ul{
+        padding-left: 80px;
+        word-spacing: 0.1rem;
+      }
+  
+      @media screen and (max-width:768px)
+  {
+      
+      .section6 h2{
+          font-size: 15px;
+          padding-left: 5px;
+          margin-left: 10px;
+      }
+       .question-answer ul{
+        padding-left:2px;
+       
+      }
+      .question-answer ol{
+       padding-left:50px;
+       padding-right: 50px;
+      }
+      .question-answer p{
+        padding-left: 50px;
+      }
+  }
+  
+  
+      /*pokemon battles*/
+  
+  
+      .pokemon-battles h2{
+        text-align: center;
+        font-size: 45px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+      }
+      .battles-p{
+        text-align: center;
+      }
+      .battles-col{
+        display: flex;
+        flex-direction: row;
+        padding-left: 150px;
+        padding-right: 150px;
+        gap:1rem;
+      }
+      td, th {
+        border: 1px lightgray solid;
+        padding: 10px;
+        
+      }
+      td {
+        color: #8a8a8a;
+      }
+      .battles-col2 p{
+        color: #424242;
+        font-weight: 550;
+      }
+      .buy-now-p{
+       text-align: center;
+       color:#4992ca ;
+       font-size: 20px;
+      }
+      .buy {
+        background-color: #4992ca;
+        color: white;
+        padding: 10px;
+        width: 200px;
+        margin-top: 10px;
+        border: none;
+        margin-bottom: 20px;
+      }
+      @media (max-width:768px)
+  {
+      .section7 .pokemon-battles{
+          margin-left:0px;
+      }
+      .section7 h2{
+          font-size: 15px;
+      }
+      .section7 .battles-col{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 0px;
+      }
+      .battles-col{
+        padding-left: ;
+      }
+      
+  }
+  
+  
+      /*know more*/
+  
+      .know-more{
+        background-color: #424242;
+      }
+      .know-more h2{
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+        font-size: 45px;
+        padding-bottom: 20px;
+      }
+      .click-here{
+        width:250px;
+        height:50px;
+        margin-bottom: 80px;
+        background: transparent;
+        border:2px solid white;
+        color:white;
+      }
+      @media (max-width:768px)
+     {
+         .section8 .know-more{
+             padding:10px;
+            
+         }
+         .section8 h2{
+             font-size: 15px;
+             margin-top:10px;
+             padding-top: 2px;
+         }
+         .section8 button{
+           width:100px;
+           height:30px;
+           font-size: 10px;
+           margin-bottom: 20px;
+           
+         }
+         
+     }
+  
+  
+      /*pokemon cards*/
+  
+  
+      .pokemon-card h2{
+        color: #8a8a8a;
+        font-size: 45px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+      .card {
+        background-color: white;
+        width: 20%;
+        padding: 0;
+        padding-bottom: 30px;
+        border: 2px #F0F0F0 solid;
+      }
+      .cardback {
+        background-color: #F0F0F0;
+        border-top: 20px #4992ca solid;
+      }
+      .card-p{
+       text-align: center;
+       padding-top: 30px;
+       padding-left: 10px;
+       padding-right: 10px;
+       color:#424242;
+       font-weight: 200;
+      }
+      .pokemon-card{
+        padding-bottom: 20px;
+      }
+      @media (max-width:768px)
+  {
+      .section9 .pokemon-card{
+          padding:10px;
+      }
+      .section9 h2{
+          font-size: 15px;
+      }
+      .section9 .card{
+          width:40%;
+      }
+      
+  }
+  
+  
+      /*pokemon trainer*/
+  
+      .pokemon-trainers{
+        font-family: Avenir-Next,Roboto,sans-serif;
+        background-color:#4992ca ;
+        color:white;
+      }
+      .pokemon-trainers h2{
+        font-size: 35px;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+      .pokemon-trainers p{
+        color:white;
+      }
+      .pokemon-trainers h6{
+        color:white;
+      }
+      @media (max-width:768px)
+  {
+      
+      .section10 h2{
+          font-size:15px;
+          
+      }
+      .section10 .pokemon-trainers h4{
+          font-size:12px;
+          padding:40px;
+      }
+      .section10 .pokemon-trainers h6{
+          font-size: 20px;
+      }
+      .section10 .pokemon-trainers p{
+        font-size: 15px;
+      }
+      .section10 .pokemon-trainers {
+          grid-template-columns: auto;
+      }
+      .section10 .col-items{
+        flex-direction: column;
+      }
+  }
+  
+  
+  
+      /*generation cards*/
+  
+      .generation-cards h2{
+       font-size: 45px;
+       padding-top: 30px;
+       padding-bottom: 20px;
+       text-align: center;
+      }
+      .cards-container {
+        display: flex;
+        justify-content: center;
+        padding-left: 200px;
+        padding-right: 200px;
+      }
+      
+      .card2 {
+        width: 478px;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        margin: 8px;
+        line-height: 24px;
+      
+      }
+      
+      .card-sub-heading {
+        font-weight: 700;
+        height: 45px;
+        color: #3c3333;
+        text-align: left;
+        font-size: 2rem;
+        line-height: 1.2;
+      }
+      
+      .card-body {
+        padding: 10px;
+      }
+      
+      .card-header {
+        margin-bottom: 0;
+        padding-left: 10px;
+        border-bottom: 1px rgba(0, 0, 0, 0.125) solid;
+        border-top: 16px #4992ca solid;
+        background-color: rgba(0, 0, 0, 0.03);
+      }
+      .card-text{
+        color:#3c3333;
+        font-weight: 200;
+      }
+      @media (max-width:768px)
+  {
+      .section11 .generation-cards{
+          padding:10px;
+      }
+      
+      .section11 h2{
+          font-size: 20px;
+          padding-top: 20px;
+      }
+      .section11 h3{
+          font-size: 12px;
+      }
+      .section11 .cards-container h1{
+        font-size: 15px;
+      }
+      .section11 .cards-container{
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      .section11 .cards-container p{
+        font-size:15px;
+      }
+      
+  }
+  
+  
+  
+      
+      /*subscribe*/
+      
+      input[type="email"] {
+        padding: 10px;
+        width: 320px;
+        height:45px;
+      
+      }
+      .subscribe h2{
+        font-size: 38px;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        color: white;
+      }
+      .click {
+        background: rgba(0,0,0,0);
+        border: 1px white solid;
+        color: white;
+        padding: 10px;
+        width: 200px;
+        height:45px;
+        margin-bottom: 80px;
+      }
+      @media (max-width:768px)
+  {
+      .section12 .subscribe{
+          padding:10px;
+      }
+      .section12 h2{
+          font-size: 15px;
+      }
+      
+      
+      
+  }
+  
+  
+  
+      /*pokemon games*/
+  
+  
+      .pokemon-games h2{
+        color:#8A8A8A;
+        font-size: 45px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .pokemon-games-col{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-left: 250px;
+        margin-right: 250px;
+        text-align: center;
+        color:#3c3333;
+        
+      }
+      .pokemon-games-col h4{
+        padding-bottom: 10px;
+      }
+      .pokemon-sleep{
+        width:240px;
+        height:200px;
+        padding-bottom: 10px;
+      }
+      .pikachu{
+        height:200px;
+        width:120px;
+        padding-bottom: 10px;
+      }
+      .pokemon-go{
+        height:180px;
+        width:180px;
+        padding-bottom: 10px;
+      }
+      .see-more{
+        background-color: #4992ca;
+          color: white;
+          padding: 10px;
+          width: 210px;
+        height:40px;
+        margin-top:30px ;
+        border: none;
+      }
+      @media (max-width:768px)
+  {
+      .section13 .pokemon-games{
+         margin-left:10px;
+         margin-right:10px;
+      }
+      .section13 h2{
+          font-size: 15px;
+      }
+      .section13 .pokemon-games-col{
+        flex-direction: column;
+      }
+      
+      
+  }
+      
+  
+  
+      /*designers*/
+  
+      .designers{
+       background-color:#4992ca ;
+      }
+      .designers h2{
+        font-size: 45px;
+        color: white;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+      }
+      .designer-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-left: 150px;
+        margin-right: 150px;
+        gap:1rem;
+        color: white;
+       
+      }
+      .design{
+        border-radius: 50%;
+        width: 180px;
+        height:180px;
+      }
+      .designer-container h4{
+        font-size: 30px;
+        font-weight: 100;
+        
+      }
+      @media (max-width:768px)
+  {
+      
+      .section14 h2{
+          font-size: 15px;
+      }
+      .section14 h4{
+          font-size:12px;
+      }
+      .section14 .designer-container{
+        flex-direction: column;
+      }
+      
+      
+  }
+  
+  
+      /*logos*/
+  
+      .logos h2{
+        font-size: 45px;
+        text-align: center;
+        color: #8A8A8A;
+        padding-top: 30px;
+        padding-bottom: 20px;
+      }
+      .logos p{
+        text-align: center;
+      }
+      .logo-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 5px;
+      }
+      @media (max-width:768px)
+      {
+          .section15 .logos{
+              padding:10px;
+          }
+          .section15 h2{
+              font-size: 15px;
+          }
+          
+          
+      }
+  
+  
+      /*want to know more*/
+  
+      .want-more{
+        background-color: #4992ca ;
+      }
+      .want-more h2{
+        text-align: center;
+        font-size: 45px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: white;
+      }
+      .want-more button{
+       margin-left: 540px;
+       width:220px;
+       margin-top: 20px;
+       margin-bottom: 30px;
+      }
+      @media (max-width:768px)
+  {
+      .section16 .want-more{
+          padding:10px;
+      }
+      .section16 h2{
+          font-size: 15px;
+      }
+      
+      
+  }
+  
+  
+      footer{
+        background-color: #040127;
+        color:white;
+        display:flex;
+        padding:50px 150px 50px 150px;
+      }
+      footer div h6{
+        color:#8A8A8A;
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: 15px;
+      }
+      footer ul{
+        list-style: none;
+      }
+      footer li{
+        padding-bottom: 5px;
+        text-align: center;
+      }
+      .footer1{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+      }
+      @media (max-width:768px)
+  {
+      footer{
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+      }
+      footer h6{
+          font-size: 15px;
+      }
+      footer .footer1{
+          display:flex;
+          flex-direction: column;
+      }
+  }
+  
+  
+  
+      
